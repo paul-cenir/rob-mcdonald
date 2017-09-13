@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+body {
+    background-color: #151c1b;
+    font-family: Overpass;
+    color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,p,span {
+    color: #ffffff;
+}
+.col-centered {
+    display: inline-block ;
+    float: none ;
+}
+
+.list-group-item {
+    cursor: pointer;
+    color:#ffffff;
+    background-color:transparent;
+    border: none;
+    padding: .25rem 1.25rem;
+    font-family: Overpass;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.mt-custom-header {
+    margin-top: 70px;
+}
+.mw-780 {
+    max-width: 780px;
+}
+.m-auto {
+    margin:auto;
+}
+.mt-6 {
+    margin-top: 6rem!important;
+}
+.pl-6 {
+    padding-left: 6rem!important;
+}
+
+footer {
+    font-size: 18px;
+}
+
+.social-icons [class*="fa fa-"] {
+    background-color: #ca2a4b;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 40px;
+    margin: auto 25px;
+    font-size: 29px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 11px;
+}
+.ai-c {
+    align-items: center;
+}
+
+.d-tc {
+    display: table-cell;
+}
+
+.footer-custom-text {
+    font-family: 'SkippySharpie';
+    font-size: 27px;
+}
+.title-custom {
+    font-size: 32px;
+    font-weight: bold;
+}
+.date-custom {
+    font-size: 20px;
+    color:#ca2a4b;
+}
+
+.p-description {
+    font-size:26px;
+    text-align: left;
+    max-width: 550px;
+}
+.custom-quote {
+    font-family: SkippySharpie;
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For responsive: */
+
+@media only screen and (max-width: 1199px) {
+	/* For mobile phones: */
+	
+	.social-icons [class*="fa fa-"] {
+        margin: auto 7px;
+    }
+}
