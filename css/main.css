@@ -92,11 +92,25 @@ footer {
     line-height: 1;
     text-align: center;
 }
+[class*="col-"] {
+    position: relative;
 
-
-
-
-
+}
+.p-a {
+    position: absolute;
+}
+.p-a-1 {
+    right: -94px;
+    top: 70px;
+}
+.p-a-2 {
+    left: -23px;
+    top: -35px;
+}
+.p-a-3 {
+    right: -107px;
+    top: 38px;
+}
 
 
 
