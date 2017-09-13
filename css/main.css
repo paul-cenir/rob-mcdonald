@@ -174,3 +174,16 @@ footer {
         margin: auto 7px;
     }
 }
+
+
+@media only screen and (max-width: 1028px) {
+	/* For mobile phones: */
+	
+	html, body {
+        min-width:1028px; /* suppose you want minimun width of 1000px */
+        width: auto !important;  /* Firefox will set width as auto */
+        width:1028px;       
+      
+      }
+}
+
