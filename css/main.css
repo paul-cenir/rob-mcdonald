@@ -5,6 +5,10 @@ body {
     font-family: Overpass;
     color: #ffffff;
 }
+a,a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 h1,h2,h3,h4,h5,p,span {
     color: #ffffff;
@@ -96,6 +100,9 @@ footer {
     position: relative;
 
 }
+.selected-item {
+    color: #ca2a4b
+}
 .p-a {
     position: absolute;
 }
@@ -107,9 +114,35 @@ footer {
     left: -23px;
     top: -35px;
 }
+
 .p-a-3 {
     right: -107px;
     top: 38px;
+}
+.p-a-4 {
+    left: -102px;
+    top: 71px;
+}
+.p-a-5 {
+    right: -30px;
+    top: 65px;
+}
+.p-a-6 {
+    right: -110px;
+    top: 54px;
+}
+.p-a-7 {
+    left: -29px;
+    top: -46px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.p-t-1 {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    text-align: center;
 }
 
 
