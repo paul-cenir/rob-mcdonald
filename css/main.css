@@ -139,9 +139,9 @@ footer {
     font-size: 18px;
 }
 .p-t-2 {
-    -ms-transform: rotate(-4deg); /* IE 9 */
-    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
-    transform: rotate(-4deg);
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
     text-align: center;
 }
 
